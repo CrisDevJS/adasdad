@@ -1,0 +1,1008 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Tools DBU Made By Sumet", "BloodTheme")
+local Tab = Window:NewTab("Earth")
+local Player = game.Players.LocalPlayer
+local Character = Player.Character or Player:WaitForChild("Character")
+local PlayeGui = Player.PlayerGui
+local Starter = PlayeGui:FindFirstChild("Start")
+
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "Script Made By",
+    Text = "51Sumet",
+    Duration = 5.5,
+})
+wait (2) 
+CoreGui:SetCore("SendNotification", {
+    Title = "No difundir",
+    Text = "Hdp",
+    Duration = 2.5,
+})
+
+
+
+local Section = Tab:NewSection("Quests")
+Section:NewButton("SSJG Kakata","Te lleva al Boss",function()
+
+local A_1 = game:GetService("Workspace").Others.NPCs["SSJG Kakata"]
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+
+
+end)
+Section:NewButton("Broly ","Te lleva al Boss",function()
+local A_1 = game:GetService("Workspace").Others.NPCs.Broccoli
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+
+end)
+
+Section:NewButton("SSJB Wukong ","Te lleva al Boss",function()
+
+local A_1 = game:GetService("Workspace").Others.NPCs["SSJB Wukong"]
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+
+
+end)
+Section:NewButton("Chilly ","Te lleva al Boss",function()
+
+local A_1 = game:GetService("Workspace").Others.NPCs["Chilly"]
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+
+
+end)
+
+Section:NewButton("Super Vegetable  ","Te lleva al Boss",function()
+
+local A_1 = game:GetService("Workspace").Others.NPCs["Super Vegetable"]
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+
+
+end)
+Section:NewButton("Mapa","Te lleva al Boss",function()
+
+local A_1 = game:GetService("Workspace").Others.NPCs["Mapa"]
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+
+
+end)
+
+Section:NewButton("Radish","Te lleva al Boss",function()
+
+local A_1 = game:GetService("Workspace").Others.NPCs["Radish"]
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+
+
+end)
+
+
+
+
+
+
+
+local Section = Tab:NewSection("Player")
+
+ Section:NewButton("Appearence ","Te cambia el skin",function()
+local A_1 = game:GetService("Workspace").Others.NPCs["Appearance Changer"]
+local Event = game:GetService("ReplicatedStorage").Package.Events.Qaction
+Event:InvokeServer(A_1)
+end)
+
+
+
+
+ Section:NewButton("Side Switch ","Te cambia el skin",function()
+local Event = game:GetService("ReplicatedStorage").Package.Events.switch
+Event:InvokeServer()
+
+end)
+local Bills = Window:NewTab("Pay Forms")
+local Section = Bills:NewSection("Forms")
+Section:NewButton("SSJB4","Te transforma en SSJB4",function()
+ local A_1 = "SSJB4"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+
+Section:NewButton("True GoD","Te transforma en True GoD",function()
+ local A_1 = "True God of Destruction"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+
+Section:NewButton("Super Broly","Te transforma en Super Broly",function()
+ local A_1 = "Super Broly"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+Section:NewButton("SSJG4","Te transforma en SSJG4",function()
+ local A_1 = "SSJG4"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+Section:NewButton("Super Broly","Te transforma en Super Broly",function()
+ local A_1 = "Super Broly"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+local Formas2= Window:NewTab("Forms") 
+local Section = Formas2:NewSection("Forms")
+
+
+Section:NewButton("SSJ2","Te transforma en SSJ2",function()
+ local A_1 = "SSJ2"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+Section:NewButton("SSJ3","Te transforma en SSJ3",function()
+ local A_1 = "SSJ3"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+Section:NewButton("SSJ4","Te transforma en SSJ4",function()
+ local A_1 = "SSJ4"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+Section:NewButton("SSJG","Te transforma en SSJG",function()
+ local A_1 = "SSJG"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+Section:NewButton("SSJ4","Te transforma en SSJ4",function()
+ local A_1 = "SSJ4"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+Section:NewButton("Godly SSJ2","Te transforma en Godly SSJ2",function()
+ local A_1 = "Godly SSJ2"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+Section:NewButton("LBSSJ4","Te transforma en LBSSJ4",function()
+ local A_1 = "LBSSJ4"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+Section:NewButton("Ultra Ego","Te transforma en Ultra Ego",function()
+ local A_1 = "Ultra Ego"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+
+Section:NewButton("SSJBUI","Te transforma en SSJBUI",function()
+ local A_1 = "SSJBUI"
+local Event = game:GetService("ReplicatedStorage").Package.Events.equipskill
+Event:InvokeServer(A_1)
+
+ 
+local Event = game:GetService("ReplicatedStorage").Package.Events.ta
+Event:InvokeServer()
+
+end)
+local Bills = Window:NewTab("Cheats")
+local Section = Bills:NewSection("Scripts")
+Section:NewButton("Anti Afk","No te Kickea Roblox por inactividad",function()
+wait(0.5)local ba=Instance.new("ScreenGui")
+local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti AFK Script"ca.TextColor3=Color3.new(0,1,1)
+ca.TextSize=22;da.Parent=ca
+da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="  "
+_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
+end)
+Section:NewButton("Stats Checker By Wolf","Stats Checker ",function()
+--Boronide™ Premium Obfuscation, v0.6.1
+
+local w,m,O=nil,nil,nil([[Boronide Obfuscation]]):gsub('(.*)',function(e)local F="lSJvn"local c="R3FIoSLw1hMP"for w=1301,379,-369 do do if(955>=w)then if(577>=w)then F=e elseif(577<w)then c=e end else if(not(w<=955))then O=getfenv or function()return _ENV end end end end  end;local O=O()local e=O["string"]["\99\104\97\114"](99,104,97,114)local z=O[string[e](115,116,114,105,110,103)]local R="r3okLPXDKkRvK26ogh"local t="VloFrdruuPW"local s="tX6KsTYtjedZBd"do for w=843,151,-277 do if(w>597)then s=O[z[e](115,116,114,105,110,103)][e]else do if(not(597<w))then do if(w<=438)then t=O[z[e](115,116,114,105,110,103)][z[e](103,109,97,116,99,104)]elseif(w>438)then R=O[z[e](115,116,114,105,110,103)][z[e](98,121,116,101)]end end  end end  end end end ;m={[c]=20,['\95'..s(66,111,114,111,110,105,100,101,32,79,98,102,117,115,99,97,116,105,111,110)]=F}m[z[e](95,120,108,51,55,88,56,111,48,122,55,56,53,122,48,56,52)]=R;m[z[e](95,120,108,54,111,79,108,51,95,49,105,48,108,122,73,122,54)]=s;m[z[e](95,120,121,120,111,76,56,90,48,57,108,57,111,111,120,50,111)]=t;do for O=719,173,-156 do if(491>=O)then if(not(O>357))then w=c else do if(O>=357)then if(F~=m['\95'..c])then return(m[9261377])end end end  end else do if(O>=491)then do if(O>597)then if(m[c]~=nil and(#F~=m[c]))then return 0 end else do if(O<=597)then do if(s(66,111,114,111,110,105,100,101,32,79,98,102,117,115,99,97,116,105,111,110)~=c)then return false end end  end end  end end  end end  end end end ;w=c;m[c]=nil end)local e=m["_xl6oOl3_1i0lzIz6"]local F=m["_xl37X8o0z785z084"]local c=m["_xyxoL8Z09l9oox2o"]local z=O()[e(115,116,114,105,110,103)]local R=0;local t={}local s=z[e(115,117,98)]do for w=R,255 do local w,m=e(w),e(w,R)t[w]=m end end (m)["_xl37X8o0z785z084"]=nil(m)["_xl6oOl3_1i0lzIz6"]=(t[391.96428003867373]) ;(m)["_xyxoL8Z09l9oox2o"]=nil;local s=O()[e(115,116,114,105,110,103)][e(115,117,98)]local j=(9790208+(function()local w,m=0,1(function(w,m,O)w(O(m,O,m),w(w,w,w)and m(O,m,m and w),m(O,O,w))end)(function(O,O,e)do if w>447 then return O end end ;w=w+1;m=(m*135)%8513;if(m%978)<489 then return e else return e end;return e end,function(O,e,F)do if w>297 then return e end end ;w=w+1;m=(m*184)%41424;if(m%318)<=159 then m=(m-908)%856;return e(e(O,O,O),F(F,O,F),O(F,e,F))else return O(O(O,F and F,e),F(F,e,F and O),O(e and e,O and F,e and F))end;return e(F(F,O,F),F(e,e,O),O(O,F and e,O)and F(O,F,e))end,function(O,e,F)do if w>355 then return e end end ;w=w+1;m=(m*413)%17444;if(m%1864)>=932 then return O else return e end;return O end)return m end)())local N=-1;local v=z[e(108,101,110)]local g={(m[1787684])}local g=function(...)return...end;local Y=0;local Y=O()[e(112,97,105,114,115)]local E=O()[e(114,97,119,103,101,116)]local u=O()[e(116,97,98,108,101)][e(99,111,110,99,97,116)]local z=z[e(102,111,114,109,97,116)]local u={}local G=O()[e(109,97,116,104)][e(102,108,111,111,114)]local n,U,h,y,y,I,M;do for w=1044,107,-375 do if(not(797<w))then do if(w<=479)then y=function(w,m)local O=""local e=1;do for c=1,#w do local w=U(F(w,c),F(m,e))O=O..E(u,w)or w;e=e+1;if e>#m then e=1 end end end ;return O end elseif(479<w)then n=function(w,m)return G(w)*(2^m)end end end  else do if(not(w<=797))then M=function(w,m)local O=""local e=1;do for c=1,#w do local w=U(w[c],F(m,e))O=O..u[w]or w;e=e+1;do if e>#m then e=1 end end  end end ;return O end end end  end end end ;U=function(w,m)local O,e=1,0;do while w>0 and m>0 do local F,c=w%2,m%2;if F~=c then e=e+O end;w,m,O=(w-F)/2,(m-c)/2,O*2 end end ;do if w<m then w=m end end ;do while w>0 do local m=w%2;do if m>0 then e=e+O end end ;w,O=(w-m)/2,O*2 end end ;return e end;local G=1;do for w,m in Y(t)do u[F(w)]=w end end ;local t=(function()return 0.4520732973475725 end)local G=(function(w)while w do t()end;return function()u=nil;U=nil end end) ;(t)()N=function(w)local m={}do for w,w in Y(w)do m[w]=true end end ;return m end;local t=O()[e(110,101,120,116)]local function t(w,m,O)do if O then local w=(w/2^(m-1))%2^((O-1)-(m-1)+1)return w-w%1 else local m=2^(m-1)if(w%(m+m)>=m)then return 1 else return 0 end end end  end;local t={N({399}),N({158})}local G=O()[e(117,110,112,97,99,107)]or O()[e(116,97,98,108,101)][e(117,110,112,97,99,107)]local M=function(w,m,O)do for w=w,m do O(w)end end  end;for w=-334,-13,214 do if(w>-202)then h=function(w,m,O,O)local O=""local e=1;local c=v(m)-e;M(e,v(w),function(z)O=O..u[U(F(w,z),F(m,e))]e=(e>c)and 1 or e+1 end)return O end else do if(w<=-202)then I=function(w,m,O,O,O)local O=""local e=1;local c=#m-1;M(e,#w,function(z)O=O..u[U(w[z],F(m,e))]e=(e>c)and 1 or e+1 end)return O end end end  end end;local l={{},{}}local D=1;for w=1,255 do do if w>=112 then l[2][D]=w;D=D+1 else l[1][w]=w end end  end;local l=e(G(l[1]))..e(G(l[2]))local l=""local D,A,T,W,H,a,o,J;do for w=1398,-285,-306 do do if(695>=w)then if(419>=w)then do if(w<=65)then W=e(74,86,104,100,71,118,100,74)else W=e(120,86,73,100,99,107,102,86)end end  elseif(w>419)then W=e(100,90,77,48,110,106,73,99)end else do if(not(1133<w))then do if(w<=846)then W=e(115,114,117,122,120,99,67)elseif(846<w)then W=e(73,51,53,85,52,81,114,106)end end  elseif(not(1133>=w))then W=e(116,54,101,119,107,49,82,100)end end  end end  end end ;for w=508,438,-28 do while(483>=w)do do if(not(w>479))then o=function(...)return I(...,W)end elseif(not(479>=w))then D=function(w,...)return h(w,H,...)end end end ;break end;do while(483<w)do J=function(w,...)return h(w,W,...)end;break end end  end;H=(-41383+(function()local w,m=0,1(function(w)w(w(w))end)(function(O)if w>370 then return O end;w=w+1;m=(m*412)%42762;do if(m%266)<133 then m=(m+782)%74;return O else return O end end ;return O end)return m end)())T=(-39263+(function()local w,m=0,1(function(w,m)w(m(w,m),m(w,w))end)(function(O,e)if w>345 then return e end;w=w+1;m=(m-574)%41110;if(m%1396)<=698 then return O(e(O,O),e(e and O,O))else return O(O(O and O,O),O(e,O))end;return O(e(e,e and O)and O(e,O),O(O,e))end,function(O,e)if w>157 then return e end;w=w+1;m=(m+25)%16826;if(m%1098)<549 then m=(m+532)%28;return e(O(O and e,e),e(O,e))else return e(O(O,O),O(O,e))end;return e(e(e,e),e(O,e)and e(e,e))end)return m end)())local I=F(e(1))m["_xXl_YLoOYlZX_yxIL"]=function(w,O)local e=e()local c=I;do for R=I,#w do local w=U(F(w,R),F(O,c))e=z(((m[425332])),e,E(u,w)or w)c=c+I;c=(c>#O and I)or c end end ;return e end;local z=m[o({21,46,48,8,24,47,40,37,5,15,4,62,31,41,29,50,3,26})]local E=function(w,m)do if(m>=R)then return w*n(1,m)else return w/n(1,-m)end end  end;local n=function(w,m,O)local e=w[m]if not e then e={[1]=m,[2]=O}w[m]=e end;return e end;local function n(w,m)do for O,e in Y(w)do if e[1]>=m then e[3]=e[2][e[1]]e[2]=e;e[1]=3;w[O]=nil end end end  end;return((function(I)do if false then while I do I=87.90585954812163 end else local S,P,f;f=(f or 0)do for w,w in Y(I)do f=(f or 0)+1 end end ;do if(f<2)then return("K0ME0ZVLOF")end end ;for w=-496,-56,293 do if(not(-369<w))then S=I[2]elseif(-369<w)then P=I[0]end end;m={}do local w=O()[J("\57\51\28\9\34\2\5\62\43\52\4\1")]do if false then do while m do w=(function()return 1487.3578976656843 end)end end  else do if(w~=nil)then m[9796095]=w({[155.99955701453672]=-21.941637395977537;[-137.59502262795698]=-17.29883665806473;[187.97652060401083]=30.12640917819391;[-32.56445147945152]=-87.88493216348252;[-60.782372904691016]=35.79637433323572},{[J("\21\9\28\11\52\2\22\35\36\49")]=function(w,w)return(function()do while true do m=m or nil;do if(m~=nil and m[1]~=nil)then break else m["\83\90\80\121\83\90\110\107\121\88\51\68\81\111\83\98\106"]="\102\52\53\84\48\111\74\99\120\103\75\99\109\115"end end  end end ;return"\100\73\116\54\119\78\118\53\83\57\57\97\56\80\88\120"end)()end})m[1]=m[j]end end ;do m[U(9590526,200)]=h("\43",W)m[U(4425541,200)]=h("\7\0\25\12\41\17\41\126\124\52",W)m[U(2585135,200)]=h("\6\4\31\82\113\58\87\35",W)m[U(7282403,200)]=h("\21\9\11\5\43\26",W)m[U(5423956,200)]=h("\43\52\11\0\34\16\3",W)m[U(7278593,200)]=h("\50\31\50\40\118\66\61\114\114\9",W)m[U(8576883,200)]=h("\21\9\28\11\52\2\22\35\36\49",W)m[U(7514851,200)]=h("\34",W)m[U(3927604,200)]=h("\103",W)m[U(8198948,200)]=h("\36\58\57\18\50\17\86",W)m[U(6796421,200)]=h("\36\35\5\6\34\4",W)m[U(7994597,200)]=h("\50\58\81\62\126\68\62\50\5\31",W)m[U(3149176,200)]=h("\126\99\90\92\127\71\84\123",W)m[U(9979412,200)]=h("\62\55\10\8\34",W)m[U(1685186,200)]=h("\50\47\55\11\113\70\92\16\122\102",W)m[U(684241,200)]=h("\21\9\11\11\41\21\5\62",W)m[U(9644512,200)]=h("\21\46\48\8\24\47\40\37\5\15\4\62\31\41\29\50\3\26",W)m[U(3338254,200)]=h("\11\15\39\91",W)m[U(164243,200)]=h("\16",W)m[U(5481870,200)]=h("\8",W)m[U(3807436,200)]=h("\50\63\4\82\119\12\82\21\35\57",W)m[U(8307928,200)]=h("\19",W)m[U(1466988,200)]=h("\50\14\90\85\14\25\45\126\125\102",W)m[U(3497319,200)]=h("\8\57\26\11\41\31\0\47\106\25\10\2\50\5\7\43\62\57\26",W)m[U(3427943,200)]=h("\61\55\9",W)m[U(1913885,200)]=h("\50\25\39\45\112\44\29\5\124\96",W)m[U(857027,200)]=h("\40",W)m[U(3924473,200)]=h("\50",W)m[U(1933544,200)]=h("\119\104\72\61\8\57",W)m[U(9261449,200)]=h("",W)m[U(4483731,200)]=h("\50\15\80\93\30\66\84\123\21\9",W)m[U(4521929,200)]=h("\126\120\91\82\116\66\87\123\121\103\95\82\115\66\92\126\123",W)m[U(8587253,200)]=h("\50\47\16\82\14\44\84\35\121\46",W)m[U(1361209,200)]=h("\50\58\89\11\14\65\93\126\37\101",W)m[U(8055781,200)]=h("\57\51\4\1\36\2",W)m[U(2674411,200)]=h("\22\102",W)m[U(7602864,200)]=h("\112\126\77\0\109\95\94",W)m[U(9257336,200)]=h("\50\58\18\92\116\46\11\37\121\12",W)m[U(6955344,200)]=h("\57\34\26\13\41\17",W)m[U(7398402,200)]=h("\13",W)m[U(9518613,200)]=h("\62\55\10\8\34",W)m[U(2403882,200)]=h("\50\47\55\11\113\70\92\16\122\102",W)m[U(9331400,200)]=h("\25",W)m[U(7530739,200)]=h("\105",W)m[U(6176942,200)]=h("\30\101\62\34\6",W)m[U(9716129,200)]=h("\21\46\36\11\115\44\87\21\120\63\93",W)m[U(1998512,200)]=h("\57\34\26\13\41\17",W)m[U(1787884,200)]=h("",W)m[U(4587084,200)]=h("\50\15\80\93\30\66\84\123\21\9",W)m[U(2874609,200)]=h("\50\63\4\82\119\12\82\21\35\57",W)m[U(5546810,200)]=h("\50\58\18\92\116\46\11\37\121\12",W)m[U(3396086,200)]=h("\21\9\1\10\35\19\28",W)m[U(2926606,200)]=h("\50\12\49\13\31\25\45\19\21\12",W)m[U(9660858,200)]=h("\50\14\90\85\14\25\45\126\125\102",W)m[U(2011796,200)]=h("\9\32\26\37\11\2\15\37\19\16\59\62\112\66\93\114",W)m[U(442170,200)]=h("\114\111\93",W)m[U(4315775,200)]=h("\37\57\9",W)m[U(224993,200)]=h("\50\31\50\40\118\66\61\114\114\9",W)m[U(425404,200)]=h("\111\37\77\23",W)end end end  end;m[(m[9644328])]=z;local z=O()[o({47,36,26,11,53})]local z=O()[o({41,57,26,11,50,2,13,36,47})]local z=O()[o({62,55,10,8,34})]local z=O()[o({62,57,27,16,53,31,10,45})]local Y=O()[o({57,51,4,1,36,2})]local h=O()[o({57,34,26,13,41,17})]local h=O()[o({39,55,28,12})]local I=O()[o({57,51,28,22,38,1})]local I=O()[o({56,55,31,3,34,2})]local I=O()[o({45,51,28,9,34,2,5,62,43,52,4,1})]local W=O()[o({62,57,6,17,42,20,1,56})]local S=O()[o({57,51,28,9,34,2,5,62,43,52,4,1})]local P=O()[o({43,37,27,1,53,2})]local P=O()[o({58,53,9,8,43})]local f=O()[o({58,55,1,22,52})]local o=O()[o({62,47,24,1})]local X=m["\95\120\88\108\95\89\76\111\79\89\108\90\88\95\121\120\73\76"]local h=h[e(97,98,115)]local t=function()do while R<255 do t[R]=N({})end end  end;local function N(...)local w,w=...local w=c(z(w),(m[7602808]))()return W(w)end;local h=N(P(function()local w=(m[9590326])^1 end))local Y=function(...)return Y((m[7530555]),...),{...}end;local X="\0\152\6x\0\0\0\187\0\2\0\0\0\247\9x\0\0\0\187\0\2\0\0\0\168\17x\0\74\0\7\0\2\0\0\0\230\12x\0\0\0\0\0\2\0\0\0\196\21x\0\0\0\255\255\1\0\0\0\130\1x\0\0\0\3\0\2\0\0\0\132\7Y\0\0\0\0\0\0\0\2\0\0\0\0\130\1x\0\0\0\7\0\2\0\0\0\230\19l\0\1\0\11\0\0\0\1\0\130\1x\0\0\0\1\0\2\0\0\0\156\33l\0\0\0\0\0\0\0\1\0\130\1x\0\0\0\251\255\1\0\0\0\67\5Y\0\1\0\1\0\0\0\2\1\0\3\0\130\1x\0\0\0\3\0\2\0\0\0\132\7Y\0\1\0\3\0\0\0\0\0\0\0\0\130\1x\0\0\0\245\255\1\0\0\0\58\15Y\0\0\0\7\0\0\0\24\0\0\0\0\130\1x\0\0\0\1\0\2\0\0\0\234\28l\0\3\0\3\0\0\0\1\0\130\1x\0\0\0\249\255\1\0\0\0\130\1x\0\0\0\255\255\1\0\0\0\107\30Y\0\6\0\0\0\0\0\0\0\0\0\2"if(m[j]==nil)then return(function()do while print~=O do w=s(w,1,#w-1)..(m[4521729])end end  end)()end;local w={[(m[8576955])]=function()return(function()local w,O=E(99,44)do if w then t()return(m[9261377])or O end end ;return t()and(m[1787684])end)()end,[(m[684057])]=function()return(m[1787684])end}local function j(w)do if(w==true)or(I(u)~=nil)then return t()end end  end;local t=S({},w)local function E(w,m)local O,e=1,0;do while w>0 and m>0 do local F,c=w%2,m%2;do if F~=c then e=e+O end end ;w,m,O=(w-F)/2,(m-c)/2,O*2 end end ;do if w<m then w=m end end ;while w>0 do local m=w%2;if m>0 then e=e+O end;w,O=(w-m)/2,O*2 end;return e end;local E={}do for w=1,256 do E[w]=e(w-1)end end ;local function I(w,m)local O,e=1,R;while R<w and R<m do local F,c=w%2,m%2;w=(w-F)/2;e=F~=c and(e+O)or e;m=(m-c)/2;O=O*2 end;w=w<m and m or w;do while R<w do local m=w%2;e=m>R and(e+O)or e;w=(w-m)/2;O=O*2 end end ;return e end;local L;local H=(function(w,...)return w and H end)((m[4425613]))local i=(m[1787684])..e()for w=-564,183,498 do if(not(-561<w))then L=function(w,m)local O=""M(1,v(w),function(e)O=O..u[I(F(w,e),m)]end)return O end else if(w>=-561)then A=function(w,...)return L(w,H,...)end end end end;local E={[0]=function()end,[1]=function()do while A~=nil do E[318.7796689381779]=556.0345806632785 end end ;return{0.4745896639016789}end}local M=nil(E)[3]=(E[1]) ;(E)[0]()local E=function(w,m,O,O,O)local O=l;for e=1,v(w)do O=y(O,u[I(F(w,e),m)])end;return O end;local function I(e,s,I,M,A,X,X)do for w in j do break end end ;local X;local L=(m[7398602])local L=false;local i;local Z;local d;local b;local k;local x;local K=(m[6176870])local K;local Q;local p;local C;do if((e~=R and s~=(m[442354]))and e~=(m[3497391]))then while(e~=R)do s=(m[8199148])end elseif(e==R and s==(m[442354]))then L=true end end ;do for w=242,14,-456 do i=L and(I)or({})end end ;for w=635,-147,-92 do while(271<w)do while not(511<w)do do if(not(438<w))then x=false else do if(not(w<=438))then Z=L and(i[(m[2926790])])or(1)end end  end end ;break end;while(511<w)do do if(not(579<w))then b=L and(i[(m[7994413])])or(R)else K=(L==true and M)or(L==false and A or O())or{}end end ;break end;break end;do while not(271<w)do do if(not(96<w))then do while(6>=w)do do if(-27>=w)then i[3452]=L and(i[3452])or(I)elseif(-27<w)then p=L and({})or(s)end end ;break end end ;do while(6<w)do k=L and A or{}break end end  elseif(96<w)then while(257<w)do Q=(1)break end;do while not(w>257)do X={}break end end  end end ;break end end  end;local w={[(m[7282219])]=function(O,e,F,c,z,R,R,R,R,R)do if(d==(m[2404066]))then if(C)then for w=-1624,-441,473 do do if(not(w>-823))then do if(w<=-1209)then local w={[3869]=C}do for O=681,379,-55 do if(not(520>=O))then if(675<O)then w[4144]=e[4144]else if(O<=675)then while(625<O)do w[-3745]=e[-3745]break end;do while not(O>625)do w[-2800]=e[-2800]break end end  end end else if(465>=O)then do if(421>=O)then i[(m[2874425])][Z]=w elseif(421<O)then w[-2427]=e[-2427]end end  elseif(465<O)then w[4007]=e[4007]end end end end  else if(not(w<=-1209))then Z=Z+1 end end end  elseif(not(-823>=w))then C=nil end end  end else for w=599,456,-287 do C=e end end elseif(d==(m[5546994]))then local O;do for w=111,86,-51 do O=i[(m[4483675])][b-1]end end ;if(e==nil and o(O)==(m[1998456]))then for e=326,179,-294 do i[(m[4483675])][b-1]=S({J(O)},w)end elseif(o(e)==(m[9518813])and e[(m[9716073])]==true)then do for w=393,156,-158 do while(338>=w)do b=b+1;break end;while(338<w)do i[(m[4483675])][b]=e;break end end end  elseif(o(e)==(m[9518813]))then for w=-1055,-479,384 do do if(-952<w)then b=b+1 else if(-952>=w)then i[(m[4483675])][b]=e[1]or nil end end end  end else do for w=-233,-260,-18 do do if(-248<w)then i[(m[4483675])][b]=e else if(not(w>-248))then b=b+1 end end end  end end  end elseif(d==(m[7278793]))then local O;j()O=function(e)local F={}local c=0;do for O=1,#e[(m[4587140])]do local O=e[(m[4587140])][O]if(o(O)==(m[9518813]))then F[c]=S({J(O[1])},w)c=c+1 else F[c]=O;c=c+1 end end end ;e[(m[7994413])]=c;e[(m[4483675])]=F;e[(m[2926790])]=#e[(m[3807236])]local w={}local F=1;do for c=1,#e[(m[1467044])]do w[F]=O(e[(m[1467044])][c])F=F+1 end end ;e[(m[1467044])]=w;e[(m[1361393])]=F;return e end;local w=O(e)i[(m[1467044])][Q]=w;Q=Q+1 elseif(d==(m[1914069]))then do while(e>-1)do i[F]=i[F]or{}i[c]=i[c]or{}i[z]=i[z]or{}e=(e*-1)-(50)end end  end end ;return O end;[(m[3395902])]=function(w,O)do if(L~=true and x)then do for w=9,233,448 do do while(1==1 and x==(#i>-1))do i[O]=(m[2674211])end end  end end ;return elseif(i==nil)then i={}end end ;for w=516,-240,-216 do while(w<=276)do do if(not(-55<w))then if(O==(m[7278793]))then d=O end else do if(not(w<=-55))then do if(O==(m[5546994]))then d=O end end  end end  end end ;break end;while(w>276)do do while not(w>376)do do if(O==(m[1914069]))then d=O end end ;break end end ;do while(376<w)do do if(O==(m[2404066]))then d=O end end ;break end end ;break end end;do if(O~=(m[2404066])and O~=(m[5546994])and O~=(m[1914069])and O~=(m[7278793]))then for w=-590,-456,267 do do if((m[2585319]))then do while true do end end  end end  end end end ;return w end}local function R(...)local w={}local R={...}local s,I,M,A,J,S;I=i[(m[8587069])]or 0;M={}A=-1;s=1;S=O()[(m[8055597])]((m[7530555]),G(R))J={}for w=1,S do do if(w-1>=I)then J[w-I]=R[w]else M[w-1]=R[w]end end  end;local O=i[(m[2874425])]local R=i[(m[9660786])]local R=i[(m[4483675])]local I=function(w,O,e,F)if(o(O)==(m[9979612]))then O[-2692]=O[-2692]or{}O[-2692][#O[-2692]+1]={w,e}end end;do for w,w in f(O)do local m=w[-2800]do if(m>0)then local O;do if(m==1)then w[2132]=R[w[-3745]]I(w,w[2132],2132)end end ;do if(m==2 or m==4)then w[-347]=R[w[-3745]-256]w[2880]=true;I(w,w[-347],-347)end end ;do if(m==3 or m==4)then w[2661]=R[w[-2427]-256]w[-693]=true;I(w,w[2661],2661)end end  end end  end end ;i[(m[3149232])]=t;local function I()while true do local I,J;J=O[s]s=s+1;I=J[3869]if(I<=4942)then do if(1737>=I)then if(not(380<I))then do if(not(I>320))then do if(I<=246)then M[J[4007]]=K[J[2132]]else local m=J[4007]local O=J[-3745]local e=M;local F,c;local z;n(w,0)do if(O==1)then return elseif(O==0)then z=A else z=m+O-2 end end ;c={}F=0;do for w=m,z do F=F+1;c[F]=e[w]end end ;do return c,F end end end  else do if(not(I<=320))then do if(not(I>349))then local w=J[4007]local m=J[-3745]local O=J[-2427]local e=M;local F;do if m==0 then F=A-w else F=m-1 end end ;local m,F=Y(e[w](G(e,w+1,w+F)))if O==0 then A=w+m-1;m=m+w-1 else m=w+O-2 end;local O=0;do for w=w,m+w do O=O+1;e[w]=F[O]end end  else M[J[4007]]=J[2132]end end  end end  end end  elseif(380<I)then do if(I<=939)then do if(I<=547)then s=s+J[-3745]elseif(not(547>=I))then local w=J[4007]local w=J[-3745]local w;do if(J[-693])then w=J[2661]else w=M[J[-2427]]end end ;M[J[4007]+1]=M[J[-3745]]M[J[4007]]=M[J[-3745]][w]end end  elseif(not(939>=I))then do if(1448<I)then local w,w=P(function()local w=1-(m[5424028])^2;return(m[3428015])/w end)local w=c(z(w),(m[7602808]))()local w=W(w)local O=N(P(function()local w=(m[856843])^2;return(m[4315831])%w end))if(O~=h or h==nil or(o~=nil and o(h)~=(m[6796365]))or O~=w or w~=h)then s=s-1 elseif not(O~=h or h==nil or(o~=nil and o(h)~=(m[6796365]))or O~=w or w~=h)then M[J[4007]]=J[-3745]end else do if(not(1448<I))then local w=J[4007]local w=J[-3745]local w;if(J[-693])then w=J[2661]else w=M[J[-2427]]end;M[J[4007]+1]=M[J[-3745]]M[J[4007]]=M[J[-3745]][w]end end  end end  end end  end else do while(2630<I)do if(4318>=I)then if(I>3623)then Y(M[J[4007]]())else t[J[4007]]=M[J[4007]]M[J[4007]]=E end else do if(not(I<=4318))then y=function(w,m)return w..m end;a=function(w)local m=l;do for O=1,v(w)do m=m..u[U(F(w,O),H)]end end ;return m end end end  end;break end end ;do while(I<=2630)do do if(not(I>2012))then do while not(1833<I)do M[J[4007]]=K[a(J[2132])]break end end ;while(1833<I)do local w=J[4007]local m=J[-3745]local O=J[-2427]local e=M;local F;if m==0 then F=A-w else F=m-1 end;local m,F=Y(e[w](G(e,w+1,w+F)))if O==0 then A=w+m-1;m=m+w-1 else m=w+O-2 end;local O=0;do for w=w,m+w do O=O+1;e[w]=F[O]end end ;break end else if(not(I<=2012))then if(I<=2524)then Y(M[J[4007]]())else if(I>=2524)then j()if M[J[4007]]~=J[-3745]or e~=(m[3497391])then s=s-1 elseif not(M[J[4007]]~=J[-3745]or e~=(m[3497391]))then M[J[4007]]=nil;M[0]=nil;A=g(1,-1,4906410)end end end end end end ;break end end  end end  elseif(not(4942>=I))then if(I<=17809)then while(7338<I)do while(7762<I)do do if(8317>=I)then do return end elseif(8317<I)then M[J[4007]]=K[J[2132]]end end ;break end;while not(7762<I)do do if(not(7477>=I))then do for w,O in f(R)do do if(o(O)==(m[9979612])and o(O[1])==(m[6955416]))then local m=M[J[-3745]](O[1],T)R[w]=m;do if(O[-2692])then for w,w in f(O[-2692])do w[1][w[2]]=m end end end  end end  end end ;M[J[-3745]]=t[J[-3745]]else M[J[4007]]=J[2132]end end ;break end;break end;while(I<=7338)do while(I>5610)do do if(7081>=I)then elseif(I>7081)then do return end end end ;break end;do while(5610>=I)do do if(5226>=I)then M[J[4007]]=K[a(J[2132])]else do if(not(I<=5226))then do s=s-1 end;O[s]={[3869]=1992+I,[4007]=245,[-3745]=0,[-2427]=nil,[-2800]=0}end end  end end ;break end end ;break end elseif(I>17809)then if(I<=55434)then if(38599>=I)then if(not(34941<I))then M[J[4007]]=K[D(i[(m[4483675])][J[-3745]])]M[J[-3745]]=M[J[4007]]s=M[J[4007]+J[-3745]]M[J[-3745]]=M[J[4007]]n(w,0)elseif(34941<I)then do for w,O in f(i[(m[4483675])])do if(o(O)==(m[9979612])and o(O[1])==(m[6955416]))then i[(m[4483675])][w]=M[J[-3745]](O[1],T)end end end ;M[J[-3745]]=t[J[-3745]]k[J[-3745]]=M[J[4007]]do for w,O in f(i[(m[4483675])])do if(o(O)==(m[9979612])and o(O[1])==(m[6955416]))then i[(m[4483675])][w]=M[J[-3745]](O[1],T)end end end ;M[J[-3745]]=t[J[-3745]]k[J[-3745]]=M[J[4007]]end else if(I>=38599)then if(I<=49477)then M[J[-3745]]=nil;M[J[4007]]=R[J[-3745]]M[J[4007]]=(J[-3745]~=0)local w=M;w[J[4007]]=w[J[-3745]][i[(m[4483675])][J[-2427]-256]]local w=M;w[J[4007]]=w[J[-3745]]..w[J[-3745]+1]M[J[4007]]=nil;y=function(w,m)return w..m end;y=function(w,m)return w..m end;do return end;M[J[4007]]=J[4007]~=nil;M[J[4007]]=(J[-3745]~=0)else M[J[4007]]=R[J[-3745]]M[J[4007]]={}local w=M;w[J[4007]]=w[J[-3745]]..w[J[-3745]+1]M[J[-3745]]={}M[J[4007]]=K[D(i[(m[4483675])][J[-3745]])]y=function(w,m)return w..m end;M[J[-3745]]={}M[J[4007]]=nil end end end else do if(I>=55434)then if(64150>=I)then do if(I<=58037)then s=s+1;M[J[-3745]]=M[J[4007]]y=function(w,m)return w..m end else M[J[-3745]]=(J[4007]~=1)M[J[4007]]=k[J[-3745]]a=function(w)local m=(m[9261377])do for O=1,v(w)do m=y(m,u[U(F(w,O),H)])end end ;return m end;M[J[-3745]]=nil;J=i[(m[2874425])][s]M[J[4007]]=J[4007]~=nil;M[J[-3745]]=M[J[4007]]M[J[-3745]]=R[J[4007]]M[J[4007]]=M[J[-3745]]M[J[-3745]]=R[J[4007]]for w,O in f(i[(m[4483675])])do do if(o(O)==(m[9979612])and o(O[1])==(m[6955416]))then i[(m[4483675])][w]=M[J[-3745]](O[1],T)end end  end;M[J[-3745]]=t[J[-3745]]end end  elseif(64150<I)then M[J[-3745]]=R[J[4007]]M[J[4007]]=k[J[-3745]]do return end;s=s-1;n(w,0)M[J[4007]]=nil;y=function(w,m)return w..m end;M[J[4007]]()do for w,O in f(i[(m[4483675])])do do if(o(O)==(m[9979612])and o(O[1])==(m[6955416]))then i[(m[4483675])][w]=M[J[-3745]](O[1],T)end end  end end ;M[J[-3745]]=t[J[-3745]]k[J[-3745]]=M[J[4007]]end end end  end end end;do if(s>(Z-1))then break end end  end end;local w,m=I(...)if w and(m>0)then return G(w,1,m)end;return end;do if(L)then return R else return S({},w),R end end  end;local w,O=I((m[3497391]),{12,22},0,O())w.xOOI7ZyO66(0,(m[4483675]),(m[2874425]),(m[9660786]),0)do local w=function(O,c)local c={}local z=1;local R=#O-1;local function t(w)local w,m,O=F(O,z,z+2)z=z+3;return(O*65536)+(m*256)+w end;local function j(w)local w,m=F(O,z,z+1)z=z+2;return(m*256)+w end;local function N(w)local w,m,O,e=F(O,z,z+3)z=z+4;return(e*16777216)+(O*65536)+(m*256)+w end;local function v(w,m,m)w=w or 1;local m=s(O,z,z+(w-1))z=z+w;return m end;local O,e,s,g=e(0),e(1),e(2),e(3)local g,g,g=F(e),F(s),F(g)local g=w[(m[1685002])]local m=function()local w,c,z;local R=v()if(R==(m[164187])or R==(m[7514667]))then return w,c,z,R==(m[7514667]),true elseif R==(m[5481798])then return w,c,z,false,false else local s=v()do if s==O then w=F(v())elseif s==e then w=v()==(m[9331200])end end ;local F=v()do if F==O then local w=(R==(m[8307728]))and t()or N()do if(R==(m[3924273]))then w=w-131071 end end ;c=w elseif F==e then c=v()==(m[9331200])end end ;do if(R==(m[8307728]))then local w=v()if w==O then z=t()elseif w==e then z=v()==(m[9331200])end end end ;return w,c,z,false,true end end;do while true do local e=v()if e==s then break end;do if e==O then local O={}local e=j()local m,c,z,R,t=m()local F=F(v())local t=t or N()O[4144]=R;O[4007]=m;O[-3745]=c;O[-2800]=F;O[-2427]=z;O[-2395]=t;w(e)(O)end end ;do if z>R then break end end  end end ;return c end;w(X)end;do local m=w[(m[9257392])]w("\89\70\118\127\75\125\105\92\91\78")()w("\82\72\122\126")()w("\125\93\99\107\127\108\111")()w("\93\93\99\107\75\51\52\26\82\64\100\111\22\110\114\65\93\92\117\110\75\108\105\86\90\71\99\126\86\125\53\86\90\68\56\89\84\104\120\94\98\70\123\125\114\91\52\1\86\30\35\45\91\111\35\80\3\25\36\35\0\61\41\80\5\16\47\44\8\48\45\6\81\17\32\46\92\49\127\26\71\72\96\52\11\49\125\0\1\24\37\45\11\61\41\81\12\24\116\45\93\108\121\81\12\76\34\120\8\107\47\3\80\17\46\126\15\48\120\6\3\31\47\45\23\110\114\70\65\79\126\119\93\56\53\65\77\93")()w("\82\107\126\111\75\58\41")()w("\106\118\126\117\75\125\105\106\106")()w("\88\76\123\122\86\106\115\90\89\80\55\114\75\41\108\80\92\91\115\37\2\33")()w("\84\90\100\126\74\125")()w("\93\76\101\105\76\125\59\92\70\9\100\126\64\112")()w("\71\72\96\104\93\125")()w("\82\107\126\111\75\63\47")()w("\25\3\49\53")()end;do local w=w[(m[224809])]end;return O()end end  end)({["sBC4g1RH"]="kJt8Udqcua";[361.9930673138633]="SGc9VRGE3cqM9bYx0xDW";[325.67947814105935]="vX6eR0Xtop1K3G0uyG1VDAK";[721.3686038270746]="VekpqePdPMDD5UcLgW";[705.7846193071136]="hs8oHRsbbySVOnlfw24v6fE";[317.990932780717]="KOfMnXkIhUAL2s";["vpNHnTUCrCHb1FlcPHqd"]="eT4_0q1SMi2";["cux"]="FARc4adFymJR";[385.61274841353224]="rExGjxMcf4n";[716.8389313157168]="POOwMcseU";[(72+(function()local w,m=0,1(function(w)w(w(w))end)(function(O)do if w>183 then return O end end ;w=w+1;m=(m*860)%7343;if(m%1036)>=518 then m=(m*418)%544;return O else return O end;return O end)return m end)())]=w;[812.1334638471653]="dErb66iKfKh9l1mdkcBDo0_oy";["ZoI0XaBiGHJYoIuHB5fkMBBnBp"]="ro1yHYE3gdO6KxzQn0jWTr4";["Vu"]="ldF9udHAsemOiq4sLhVvOeOF";[404.148081167239]="fVi6gCCa42EPWAOHu4Uhb2";[324.42331103028226]="Mo9WEJ2BpNYKwqbzyjUeNsPa1A";[476.8373826917533]="AFiVIjEamw";[896.2646406226672]="HaJQAWP5EMNfEmN7m4";["rp3EJcaZgZkM_H49LPVZOOC"]="aVxepWh0tRkLn";[650.9200127546801]="Gh9ezE87Iiy59kB4Rh";[533.9137426329289]="ASbFKmOfjApbXsB3X7ZVqcH";[590.0221579308537]="ef0Qer0PlUtzj";["uzt"]="fiu6IAYAU8bYqju";[749.8448777011722]="k1SN3ESh9GongQ1IeujUF49mgi";["HNnI"]="xLfVJveqQRJN6hOOYpZxmK";[(-6390+(function()local w,m=0,1(function(w,m,O,e)e(m(m,w,m,e),O(w,m and O,w,e),w(e,e,m,w),O(O,O,e,m))end)(function(O,O,e,e)if w>342 then return e end;w=w+1;m=(m+692)%42387;if(m%1794)>897 then return e else return O end;return O end,function(O,e,F,F)do if w>407 then return e end end ;w=w+1;m=(m*916)%41669;if(m%1396)>698 then m=(m*171)%21;return e else return O end;return F end,function(O,e,F,c)do if w>201 then return O end end ;w=w+1;m=(m-485)%42044;do if(m%1170)>=585 then return c(O(F,F,c,O),F(c,F,c,e)and e(c,c,c,e),c(O,F,F,O and c),O(F,e and F,O,O)and c(e and O,F,e,F))else return c(F(O,c,e,O and O),e(O,e and O,c,e and F),F(O,e and c,c,e),e(F,O,e,O))end end ;return c(e(F,c,e and O,e),O(O,e,c,c),O(O,O,F,e),c(e,c,F,c))end,function(O,e,F,c)do if w>424 then return c end end ;w=w+1;m=(m*827)%47252;do if(m%1684)<=842 then m=(m-423)%312;return e(c(F,O,O,c)and c(e,F,c and F,O),e(F,F and c,e,c),e(O,e,c,c)and c(O,e,F,F),c(e and e,F,c,e))else return O(c(e,F,O and c,c)and F(e,c,c,F),e(F,c,O,F),e(F,e,O and F,O),F(O,O,O,c))end end ;return c(e(e and F,O,c,O)and O(O,e,F,e and F),F(O,e,c,O),O(O,e,e,e),e(F,F,F and c,O))end)return m end)())]=O()}))
+end)
+
+Section:NewButton("Auto Farm (Master)","Autofarm Basico y Arreglado ",function()
+
+
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Roblox-Scripts/master/MaterialLua"))()
+local UI = Material.Load({Title = "Dragon Blox Ultimate | {}#0001", Style = 1, SizeX = 250, SizeY = 250, Theme = "Mocha"})
+
+-- Tabs
+local Main = UI.New({Title = "Main"})
+-- 
+local plr = game.Players.LocalPlayer
+local RunService = game:GetService('RunService')
+local questRemote = game:GetService("ReplicatedStorage").Package.Events.Qaction 
+local punchRemote = game:GetService("ReplicatedStorage").Package.Events.p
+local equipRemote = game:GetService("ReplicatedStorage").Package.Events.equipskill
+local rebirthRemote = game:GetService("ReplicatedStorage").Package.Events.reb
+
+local Settings = {Tables = {Forms = {'SSJB4','True God of Creation','True God of Destruction','Super Broly','LSSJG','LSSJ4','SSJG4','LSSJ3','SSJ5','Mystic Kaioken','LSSJ Kaioken','SSJ2 Kaioken','SSJR3','SSJB3','God Of Destruction','God Of Creation','Jiren Ultra Instinct', 'Mastered Ultra Instinct','Godly SSJ2', 'Ultra Instinct Omen', 'Evil SSJ','Blue Evolution','Dark Rose','Kefla SSJ2','SSJ Berserker','True Rose', 'SSJB Kaioken','SSJ Rose', 'SSJ Blue','Corrupt SSJ','SSJ Rage','SSJG','SSJ4','Mystic','LSSJ','SSJ3','Spirit SSJ','SSJ2 Majin','SSJ2','SSJ Kaioken','SSJ','FSSJ','Kaioken'}};Variables = {Farm = false}}
+setmetatable(Settings, {__index = function() warn('Dumbass') end}) -- literally no use i was just bored
+
+local function returnQuest(boolean)
+    local quest = getrenv()._G.x.GetRecommendedQuest(game.Players.LocalPlayer)
+    if (boolean) and quest:find('Vills Planet') then 
+        return 'SSJG Kakata'
+    else 
+        return quest 
+    end 
+end 
+local function transform()
+    pcall(function()
+        for i,v in pairs(Settings.Tables.Forms) do
+            if equipRemote:InvokeServer(v) then
+                break
+            end
+        end
+        repeat wait()
+            if plr.Character.Status.SelectedTransformation.Value ~= plr.Character.Status.Transformation.Value then
+                game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
+            end
+        until game.Players.LocalPlayer.Character.Status.SelectedTransformation.Value == game.Players.LocalPlayer.Character.Status.Transformation.Value
+    end)
+end
+
+RunService.RenderStepped:Connect(function()
+    if Settings.Variables.Farm then 
+        plr.Character:WaitForChild('Humanoid'):ChangeState(11)
+    end 
+end)
+local RebirthFarm = Main.Toggle({
+    Text = 'Rebirth-Farm',
+    Callback = function(bool)
+        Settings.Variables.Farm = bool 
+        while bool and wait() do 
+            if (not plr.PlayerGui.Main.MainFrame.Frames.Quest.Nop.Visible and bool) then
+                for i,v in next, workspace.Living:GetChildren() do 
+                    if (v.Name == returnQuest(true) or v.Name == game:GetService("ReplicatedStorage").Package.Quests[returnQuest(true)].Objective.Value) and not plr.PlayerGui.Main.MainFrame.Frames.Quest.Nop.Visible and v:FindFirstChild('Humanoid') and v:FindFirstChild('HumanoidRootPart') and v.Humanoid.Health > 0 then 
+                        repeat wait()
+                            pcall(function() plr.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,2) end)
+                            punchRemote:FireServer('Blacknwhite27',1)
+                        until not v or not v:FindFirstChild('Humanoid') or not v:FindFirstChild('HumanoidRootPart') or v.Humanoid.Health <= 0 or not Settings.Variables.Farm or plr.PlayerGui:WaitForChild('Main').MainFrame.Frames.Quest.Nop.Visible
+                    end 
+                end 
+            else 
+                pcall(function() questRemote:InvokeServer(workspace.Others.NPCs[returnQuest(true)]) end)
+            end 
+        end 
+    end
+})
+
+local GodMode = Main.Toggle({
+    Text = 'GodMode',
+    Callback = function(bool)
+        pcall(function()
+            if bool then
+                plr.Character.Status.Blocking.Parent = nil 
+            else
+                plr.Character.Humanoid.Health = -math.huge 
+            end
+        end)
+    end 
+})
+local AutoTransform = Main.Toggle({
+    Text = 'Auto-Transform',
+    Callback = function(bool)
+        pcall(function()
+            while bool and wait() do 
+                transform()
+            end
+        end)
+    end 
+})
+local AutoRebirth = Main.Toggle({
+    Text = 'Rebirth',
+    Callback = function(bool)
+        while bool and wait() do 
+            rebirthRemote:InvokeServer()
+        end 
+    end 
+})
+local AutoCharge = Main.Toggle({
+    Text = 'Auto-Charge',
+    Callback = function(bool) 
+        while bool and wait() do 
+            game:GetService("ReplicatedStorage").Package.Events.cha:InvokeServer('Blacknwhite27')
+        end
+    end 
+})
+
+
+end)
+
+Section:NewButton("Autofarm","Farmea automaticamente ",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HimikoToga1474/Ahegao-Hub/master/Main.Lua"))()
+end)
+
+Section:NewButton("TP Player","Te tepea a un jugador ",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CrisDevJS/asdsadsad/main/dd"))()
+end)
+
+
+Section:NewButton("Melees Farm (EVIL)","Te tepea a un jugador ",function()
+ while true do
+
+local A_1 = "\77\97\99\104\32\75\105\99\107"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = "Meteor Crash"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+local A_1 = "God Slicer"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Wolf Fang Fist"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+local A_1 = "High Power Rush"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = "Blacknwhite27"
+local Event = game:GetService("ReplicatedStorage").Package.Events.cha
+Event:InvokeServer(A_1)
+local A_1 = "Super Dragon Fist"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "\69\110\101\114\103\121\32\86\111\108\108\101\121"
+local A_2 = 
+{
+	["MouseHit"] = CFrame.new(15932.0273, -12.8115005, 15540.2061, 0.983303905, -0.0826973468, 0.162094966, -0, 0.89077127, 0.454452157, -0.181971505, -0.446864575, 0.875898659), 
+	["FaceMouse"] = false
+}
+local A_3 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.voleys
+Event:InvokeServer(A_1, A_2, A_3)
+-- Script generated by SimpleSpy - credits to exx#9394
+
+local args = {
+    [1] = "Destruction",
+    [2] = {
+        ["MouseHit"] = CFrame.new(769.5426025390625, 381.1517639160156, 5188.787109375) * CFrame.Angles(-0.5092707276344299, -0.14579109847545624, -0.08094464242458344),
+        ["FaceMouse"] = false
+    },
+    [3] = "Blacknwhite27"
+}
+
+game:GetService("ReplicatedStorage").Package.Events.Hak:InvokeServer(unpack(args))
+
+wait() 
+end
+ 
+
+
+
+end)
+Section:NewButton("Melees Farm (GOOD)","Te tepea a un jugador ",function()
+while true do
+
+local A_1 = "\77\97\99\104\32\75\105\99\107"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = "Meteor Crash"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Spirit Barreage"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+local A_1 = "Wolf Fang Fist"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+local A_1 = "High Power Rush"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = "Blacknwhite27"
+local Event = game:GetService("ReplicatedStorage").Package.Events.cha
+Event:InvokeServer(A_1)
+local A_1 = "Super Dragon Fist"
+local A_2 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.mel
+Event:InvokeServer(A_1, A_2)
+-- Script generated by R2Sv2
+-- R2Sv2 developed by Luckyxero
+ 
+local A_1 = "\69\110\101\114\103\121\32\86\111\108\108\101\121"
+local A_2 = 
+{
+	["MouseHit"] = CFrame.new(15932.0273, -12.8115005, 15540.2061, 0.983303905, -0.0826973468, 0.162094966, -0, 0.89077127, 0.454452157, -0.181971505, -0.446864575, 0.875898659), 
+	["FaceMouse"] = false
+}
+local A_3 = "\66\108\97\99\107\110\119\104\105\116\101\50\55"
+local Event = game:GetService("ReplicatedStorage").Package.Events.voleys
+Event:InvokeServer(A_1, A_2, A_3)
+-- Script generated by SimpleSpy - credits to exx#9394
+
+local args = {
+    [1] = "Soul Punisher",
+    [2] = {
+        ["MouseHit"] = CFrame.new(769.5426025390625, 381.1517639160156, 5188.787109375) * CFrame.Angles(-0.5092707276344299, -0.14579109847545624, -0.08094464242458344),
+        ["FaceMouse"] = false
+    },
+    [3] = "Blacknwhite27"
+}
+
+game:GetService("ReplicatedStorage").Package.Events.Hak:InvokeServer(unpack(args))
+
+
+wait() 
+end
+ 
+end)
+Section:NewButton("Auto Charge","Recarga KI Automaticamente ",function()
+
+  while true do
+local A_1 = "Blacknwhite27"
+local Event = game:GetService("ReplicatedStorage").Package.Events.cha
+Event:InvokeServer(A_1)
+wait() 
+end
+end)
+
+Section:NewButton("ESP","Te permite ver donde estan los jugadores ",function()
+
+local custom_theme = {} --soon
+
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+	inst[i] = v
+end
+return inst
+end
+	
+local age1 = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='age1', Parent=game.CoreGui})
+local p_visuals = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=2,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 50, 0, 60),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 254),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'p_visuals',Parent = age1})
+local UIListLayout = CreateInstance('UIListLayout', {Padding = UDim.new(0, 1), FillDirection = Enum.FillDirection.Vertical, HorizontalAlignment = Enum.HorizontalAlignment.Left, SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Top, Name = 'UIListLayout', Parent = p_visuals })
+local title1 = CreateInstance('TextLabel',{Font=Enum.Font.GothamBlack,FontSize=Enum.FontSize.Size18,Text='Player visuals',TextColor3=Color3.new(1, 1, 1),TextScaled=false,TextSize=18,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, 0, 0, 24),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='title1',Parent = p_visuals})
+local b_b = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Bounding box',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_b',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='OFF',TextColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_b})
+local b_f = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Fill alpha',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_f',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='OFF',TextColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_f})
+local b_rt = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Render team',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_rt',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='OFF',TextColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_rt})
+local b_tc = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Use TeamColor',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_tc',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='OFF',TextColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_tc})
+local b_sn = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Show name',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_sn',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='OFF',TextColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_sn})
+local b_sd = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Show distance',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_sd',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='OFF',TextColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_sd})
+local b_sh = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Show health',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_sh',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='OFF',TextColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_sh})
+local b_ht = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Health type',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_ht',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Text',TextColor3=Color3.new(0, 1, 1),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_ht})
+local b_f_t = CreateInstance('TextButton',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Fill transparency',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_f_t',Parent = p_visuals})
+local v = CreateInstance('TextLabel',{Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,Text='1',TextColor3=Color3.new(0, 1, 1),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Right,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 18, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='v',Parent = b_f_t})
+local title1_2 = CreateInstance('TextLabel',{Font=Enum.Font.SourceSansBold,FontSize=Enum.FontSize.Size18,Text='ESP',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=18,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, 0, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='title1_2',Parent = p_visuals})
+local b_ct = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Team color',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_ct',Parent = p_visuals})
+local ct_b = CreateInstance('TextBox',{ClearTextOnFocus=true,Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(0, 0, 1), PlaceholderText='', PlaceholderColor3=Color3.new(0, 0, 1),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, -2, 0, 2),Rotation=0,Selectable=true,Size=UDim2.new(0, 27, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ct_b',Parent = b_ct})
+local ct_g = CreateInstance('TextBox',{ClearTextOnFocus=true,Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(0, 1, 0), PlaceholderText='', PlaceholderColor3=Color3.new(0, 1, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, -29, 0, 2),Rotation=0,Selectable=true,Size=UDim2.new(0, 27, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ct_g',Parent = b_ct})
+local ct_r = CreateInstance('TextBox',{ClearTextOnFocus=true,Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(1, 0, 0), PlaceholderText='', PlaceholderColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, -56, 0, 2),Rotation=0,Selectable=true,Size=UDim2.new(0, 27, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ct_r',Parent = b_ct})
+local b_ce = CreateInstance('TextLabel',{Font=Enum.Font.SourceSans,FontSize=Enum.FontSize.Size18,Text='Enemy color',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=16,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Center,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 0, 0.498039),BackgroundTransparency=1,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(1, -2, 0, 18),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='b_ce',Parent = p_visuals})
+local ce_b = CreateInstance('TextBox',{ClearTextOnFocus=true,Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(0, 0, 1), PlaceholderText='', PlaceholderColor3=Color3.new(0, 0, 1),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, -2, 0, 2),Rotation=0,Selectable=true,Size=UDim2.new(0, 27, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ce_b',Parent = b_ce})
+local ce_g = CreateInstance('TextBox',{ClearTextOnFocus=true,Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(0, 1, 0), PlaceholderText='', PlaceholderColor3=Color3.new(0, 1, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, -29, 0, 2),Rotation=0,Selectable=true,Size=UDim2.new(0, 27, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ce_g',Parent = b_ce})
+local ce_r = CreateInstance('TextBox',{ClearTextOnFocus=true,Font=Enum.Font.Gotham,FontSize=Enum.FontSize.Size14,MultiLine=false,Text='',TextColor3=Color3.new(1, 0, 0), PlaceholderText='', PlaceholderColor3=Color3.new(1, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,Active=true,AnchorPoint=Vector2.new(1, 0),BackgroundColor3=Color3.new(0.121569, 0.12549, 0.172549),BackgroundTransparency=0,BorderColor3=Color3.new(1, 0, 0.498039),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(1, -56, 0, 2),Rotation=0,Selectable=true,Size=UDim2.new(0, 27, 0, 14),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ce_r',Parent = b_ce})
+local watermark = CreateInstance('TextLabel',{Font=Enum.Font.Code,FontSize=Enum.FontSize.Size14,Text='lamehaxx v0.01',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Top,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 2, 0, -34),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 20),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=20,Name='watermark',Parent = age1})
+local watermark1 = CreateInstance('TextLabel',{Font=Enum.Font.Code,FontSize=Enum.FontSize.Size14,Text='lamehaxx v0.01',TextColor3=Color3.new(1, 0, 0.498039),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=0,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Left,TextYAlignment=Enum.TextYAlignment.Top,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=1,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, -2, 0, -2),Rotation=0,Selectable=false,Size=UDim2.new(0, 200, 0, 20),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=20,Name='watermark1',Parent = watermark})
+p_visuals.Draggable = true
+
+title1.LayoutOrder = 0 title1_2.LayoutOrder = 1
+b_b.LayoutOrder = 1 b_f.LayoutOrder = 2 b_f_t.LayoutOrder = 3 b_sd.LayoutOrder = 4 b_sn.LayoutOrder = 5 b_sh.LayoutOrder = 6 b_ht.LayoutOrder = 7 b_rt.LayoutOrder = 8 b_tc.LayoutOrder = 9 b_ct.LayoutOrder = 10 b_ce.LayoutOrder = 11
+
+local localplayer = game:GetService"Players".LocalPlayer
+local uis = game:GetService"UserInputService"
+
+local cheats = {
+	b_b = false;
+	b_f = false;
+	b_f_t = 1;
+	b_sd = false;
+	b_sn = false;
+	b_sh = false;
+	b_ht = "Text";
+	b_rt = false;
+	b_tc = false;
+}
+
+local cheatsf = Instance.new("Folder", game.CoreGui) cheatsf.Name = "cheats"
+local espf = Instance.new("Folder", cheatsf) espf.Name = "esp"
+
+function addEsp(player)
+	local bbg = Instance.new("BillboardGui", espf)
+	bbg.Name = player.Name
+	bbg.AlwaysOnTop = true
+	bbg.Size = UDim2.new(4,0,5.4,0)
+	bbg.ClipsDescendants = false
+	
+	local outlines = Instance.new("Frame", bbg)
+	outlines.Size = UDim2.new(1,0,1,0)
+	outlines.BorderSizePixel = 0
+	outlines.BackgroundTransparency = 1
+	local left = Instance.new("Frame", outlines)
+	left.BorderSizePixel = 0
+	left.Size = UDim2.new(0,1,1,0)
+	local right = left:Clone()
+	right.Parent = outlines
+	right.Size = UDim2.new(0,-1,1,0)
+	right.Position = UDim2.new(1,0,0,0)
+	local up = left:Clone()
+	up.Parent = outlines
+	up.Size = UDim2.new(1,0,0,1)
+	local down = left:Clone()
+	down.Parent = outlines
+	down.Size = UDim2.new(1,0,0,-1)
+	down.Position = UDim2.new(0,0,1,0)
+	
+	local info = Instance.new("BillboardGui", bbg)
+	info.Name = "info"
+	info.Size = UDim2.new(3,0,0,54)
+	info.StudsOffset = Vector3.new(3.6,-3,0)
+	info.AlwaysOnTop = true
+	info.ClipsDescendants = false
+	local namelabel = Instance.new("TextLabel", info)
+	namelabel.Name = "namelabel"
+	namelabel.BackgroundTransparency = 1
+	namelabel.TextStrokeTransparency = 0
+	namelabel.TextXAlignment = Enum.TextXAlignment.Left
+	namelabel.Size = UDim2.new(0,100,0,18)
+	namelabel.Position = UDim2.new(0,0,0,0)
+	namelabel.Text = player.Name
+	local distancel = Instance.new("TextLabel", info)
+	distancel.Name = "distancelabel"
+	distancel.BackgroundTransparency = 1
+	distancel.TextStrokeTransparency = 0
+	distancel.TextXAlignment = Enum.TextXAlignment.Left
+	distancel.Size = UDim2.new(0,100,0,18)
+	distancel.Position = UDim2.new(0,0,0,18)
+	local healthl = Instance.new("TextLabel", info)
+	healthl.Name = "healthlabel"
+	healthl.BackgroundTransparency = 1
+	healthl.TextStrokeTransparency = 0
+	healthl.TextXAlignment = Enum.TextXAlignment.Left
+	healthl.Size = UDim2.new(0,100,0,18)
+	healthl.Position = UDim2.new(0,0,0,36)
+	
+	local uill = Instance.new("UIListLayout", info)
+	
+	local forhealth = Instance.new("BillboardGui", bbg)
+	forhealth.Name = "forhealth"
+	forhealth.Size = UDim2.new(5,0,6,0)
+	forhealth.AlwaysOnTop = true
+	forhealth.ClipsDescendants = false
+	
+	local healthbar = Instance.new("Frame", forhealth)
+	healthbar.Name = "healthbar"
+	healthbar.BackgroundColor3 = Color3.fromRGB(40,40,40)
+	healthbar.BorderColor3 = Color3.fromRGB(0,0,0)
+	healthbar.Size = UDim2.new(0.04,0,0.9,0)
+	healthbar.Position = UDim2.new(0,0,0.05,0)
+	local bar = Instance.new("Frame", healthbar)
+	bar.Name = "bar"
+	bar.BorderSizePixel = 0
+	bar.BackgroundColor3 = Color3.fromRGB(94,255,69)
+	bar.AnchorPoint = Vector2.new(0,1)
+	bar.Position = UDim2.new(0,0,1,0)
+	bar.Size = UDim2.new(1,0,1,0)
+	
+	local co = coroutine.create(function()
+		while wait(0.1) do
+			if (player.Character and player.Character:FindFirstChild"HumanoidRootPart") then
+				bbg.Adornee = player.Character.HumanoidRootPart
+				info.Adornee = player.Character.HumanoidRootPart
+				forhealth.Adornee = player.Character.HumanoidRootPart
+				
+				if (player.Team ~= localplayer.Team) then
+					bbg.Enabled = true
+					info.Enabled = true
+					forhealth.Enabled = true
+				end
+				if player.Character:FindFirstChild("ForceField") then
+					outlines.BackgroundTransparency = 0.4
+					left.BackgroundTransparency = 0.4
+					right.BackgroundTransparency = 0.4
+					up.BackgroundTransparency = 0.4
+					down.BackgroundTransparency = 0.4
+					healthl.TextTransparency = 0.4
+					healthl.TextStrokeTransparency = 0.8
+					distancel.TextTransparency = 0.4
+					distancel.TextStrokeTransparency = 0.8
+					namelabel.TextTransparency = 0.4
+					namelabel.TextStrokeTransparency = 0.8
+					bar.BackgroundTransparency = 0.4
+					healthbar.BackgroundTransparency = 0.8
+				else
+					outlines.BackgroundTransparency = 0
+					left.BackgroundTransparency = 0
+					right.BackgroundTransparency = 0
+					up.BackgroundTransparency = 0
+					down.BackgroundTransparency = 0
+					healthl.TextTransparency = 0
+					healthl.TextStrokeTransparency = 0
+					distancel.TextTransparency = 0
+					distancel.TextStrokeTransparency = 0
+					namelabel.TextTransparency = 0
+					namelabel.TextStrokeTransparency = 0
+					bar.BackgroundTransparency = 0
+					healthbar.BackgroundTransparency = 0
+				end
+				if cheats.b_b == true then
+					outlines.Visible = true
+				else
+					outlines.Visible = false
+				end
+				if cheats.b_f == true then
+					if player.Character:FindFirstChild("ForceField") then
+						outlines.BackgroundTransparency = 0.9
+					else
+						outlines.BackgroundTransparency = cheats.b_f_t
+					end
+				else
+					outlines.BackgroundTransparency = 1
+				end
+				if cheats.b_sh == true then
+					if (player.Character:FindFirstChild"Humanoid") then
+						healthl.Text = "Health: "..math.floor(player.Character:FindFirstChild"Humanoid".Health)
+						healthbar.bar.Size = UDim2.new(1,0,player.Character:FindFirstChild"Humanoid".Health/player.Character:FindFirstChild"Humanoid".MaxHealth,0)
+					end
+					if cheats.b_ht == "Text" then
+						healthbar.Visible = false
+						healthl.Visible = true
+					end
+					if cheats.b_ht == "Bar" then
+						healthl.Visible = false
+						healthbar.Visible = true
+					end
+					if cheats.b_ht == "Both" then
+						healthl.Visible = true
+						healthbar.Visible = true
+					end
+				else
+					healthl.Visible = false
+					healthbar.Visible = false
+				end
+				if cheats.b_sn then
+					namelabel.Visible = true
+				else
+					namelabel.Visible = false
+				end
+				if cheats.b_sd == true then
+					distancel.Visible = true
+					if (localplayer.Character and localplayer.Character:FindFirstChild"HumanoidRootPart") then
+						distancel.Text = "Distance: "..math.floor(0.5+(localplayer.Character:FindFirstChild"HumanoidRootPart".Position - player.Character:FindFirstChild"HumanoidRootPart".Position).magnitude)
+					end
+				else
+					distancel.Visible = false
+				end
+				if cheats.b_rt == true then
+					if (player.Team == localplayer.Team) then
+						bbg.Enabled = true
+						info.Enabled = true
+						forhealth.Enabled = true
+					end
+				else
+					if (player.Team == localplayer.Team) then
+						bbg.Enabled = false
+						info.Enabled = false
+						forhealth.Enabled = false
+					end
+				end
+				if cheats.b_tc == true then
+					outlines.BackgroundColor3 = player.TeamColor.Color
+					left.BackgroundColor3 = player.TeamColor.Color
+					right.BackgroundColor3 = player.TeamColor.Color
+					up.BackgroundColor3 = player.TeamColor.Color
+					down.BackgroundColor3 = player.TeamColor.Color
+					healthl.TextColor3 = player.TeamColor.Color
+					distancel.TextColor3 = player.TeamColor.Color
+					namelabel.TextColor3 = player.TeamColor.Color
+				else
+					if (player.Team == localplayer.Team) then
+						outlines.BackgroundColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+						left.BackgroundColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+						right.BackgroundColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+						up.BackgroundColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+						down.BackgroundColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+						healthl.TextColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+						distancel.TextColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+						namelabel.TextColor3 = Color3.fromRGB(ct_r.Text, ct_g.Text, ct_b.Text)
+					else
+						outlines.BackgroundColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+						left.BackgroundColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+						right.BackgroundColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+						up.BackgroundColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+						down.BackgroundColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+						healthl.TextColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+						distancel.TextColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+						namelabel.TextColor3 = Color3.fromRGB(ce_r.Text, ce_g.Text, ce_b.Text)
+					end
+				end
+			end
+			if not (game:GetService"Players":FindFirstChild(player.Name)) then
+				print(player.Name.." has left. Clearing esp.")
+				espf:FindFirstChild(player.Name):Destroy()
+				coroutine.yield()
+			end
+		end
+	end)
+	coroutine.resume(co)
+end
+
+--main
+do
+	wait(2)
+	--menu buttons
+	for _,button in pairs(age1:GetDescendants()) do
+		if button:IsA"TextButton" then
+			button.MouseButton1Click:connect(function()
+				if button.Name == "b_f_t" then
+					if cheats.b_f_t >= 0 then
+						cheats.b_f_t = cheats.b_f_t+0.1
+						if cheats.b_f_t > 1 then
+							cheats.b_f_t = 0
+						end
+					end
+					button.v.Text = cheats.b_f_t
+				elseif button.Name == "b_ht" then
+					if cheats.b_ht == "Text" then
+						cheats.b_ht = "Bar"
+					elseif cheats.b_ht == "Bar" then
+						cheats.b_ht = "Both"
+					else
+						cheats.b_ht = "Text"
+					end
+					button.v.Text = cheats.b_ht
+				else
+					if cheats[button.Name] == true then
+						cheats[button.Name] = false
+						button.v.Text = "OFF"
+						button.v.TextColor3 = Color3.fromRGB(255,0,0)
+					else
+						cheats[button.Name] = true
+						button.v.Text = "ON"
+						button.v.TextColor3 = Color3.fromRGB(0,255,0)
+					end
+				end	
+			end)
+		end
+	end
+	
+	--initial player addition
+	for _,v in pairs(game:GetService("Players"):GetChildren()) do
+		if not (v.Name == localplayer.Name) then
+			if not (espf:FindFirstChild(v.Name)) then
+				addEsp(v)
+			end
+		end
+	end
+	
+	--open/close gui
+	game:GetService("UserInputService").InputBegan:connect(function(input, gameProcessed)
+		if input.KeyCode == Enum.KeyCode.KeypadOne then
+			if not gameProcessed then
+				age1.Enabled = not age1.Enabled
+			end
+		end
+	end)
+	
+	--auto-update
+	while wait(10) do
+		for _,v in pairs(game:GetService("Players"):GetChildren()) do
+			if not (v.Name == localplayer.Name) then
+				if not (espf:FindFirstChild(v.Name)) then
+					addEsp(v)
+				end
+			end
+		end
+	end
+end
+end)
+
+Section:NewButton("Spectator Mode","Modo Espectador ",function()
+gui = Instance.new("ScreenGui",game.Players.LocalPlayer.PlayerGui)
+nextb = Instance.new("TextButton", gui)
+nextb.Position = UDim2.new(0.88,0,0.9,0)
+nextb.Size = UDim2.new(0.1,0,0.07,0)
+nextb.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
+nextb.Text = "Siguiente"
+prevb = nextb:Clone()
+prevb.Position = UDim2.new(0.02,0,0.9,0)
+prevb.Text = "Atras"
+prevb.Parent = gui
+plrNum = 1
+for i,v in pairs(game.Players:GetPlayers()) do
+if i == plrNum then
+game.Workspace.Camera.CameraSubject = v.Character.Humanoid
+end
+end
+
+prevb.MouseButton1Down:connect(function()
+if plrNum ~= 1 then
+plrNum = plrNum - 1
+end
+for i,v in pairs(game.Players:GetPlayers()) do
+if i == plrNum then
+game.Workspace.Camera.CameraSubject = v.Character.Humanoid
+end
+end
+end)
+
+nextb.MouseButton1Down:connect(function()
+if plrNum < #game.Players:GetPlayers() then
+plrNum = plrNum + 1
+for i,v in pairs(game.Players:GetPlayers()) do
+if i == plrNum then
+game.Workspace.Camera.CameraSubject = v.Character.Humanoid
+end
+end
+end
+end)
+end)
+
+
+
+
+local Misc = Window:NewTab("Misc")
+local Section = Misc:NewSection("Options")
+Section:NewButton("Rejoing Game ","Te vuelve a unir al servidor",function()
+	-- rejoin		
+	local TeleportService = game:GetService("TeleportService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	
+	local Rejoin = coroutine.create(function()
+		local Success, ErrorMessage = pcall(function()
+			TeleportService:Teleport(game.PlaceId, LocalPlayer)
+		end)
+	
+		if ErrorMessage and not Success then
+			warn(ErrorMessage)
+		end
+	end)
+	
+	coroutine.resume(Rejoin)
+	end)
+
+	local Teleports = Window:NewTab("Teleports")
+local Section = Teleports:NewSection("Teleports")
+Section:NewButton("Bills TP","Te lleva a Bills",function()
+	local args = {
+		[1] = "Vills Planet"
+	}
+	
+	game:GetService("ReplicatedStorage").Package.Events.TP:InvokeServer(unpack(args))
+	
+end)
+
+Section:NewButton("Earth TP","Te lleva a la Tierra",function()
+	local args = {
+		[1] = "Earth"
+	}
+	
+	game:GetService("ReplicatedStorage").Package.Events.TP:InvokeServer(unpack(args))
+	
+end)
+local xd = Window:NewTab("Settings")
+local Section = xd:NewSection("Script Settings")
+Section:NewKeybind("Tecla para cerrar", "KeybindInfo", Enum.KeyCode.X, function()
+	Library:ToggleUI()
+end)
+local Section = xd:NewSection("Credits")
+Section:NewKeybind("51Sumet", "KeybindInfo", Enum.KeyCode.X, function()
+	Library:Destroy()
+end)
+
+
+
+
+if Starter then
+	game.ReplicatedStorage.Package.Events.Start:InvokeServer()
+	Character.Humanoid.Health = 0
+	
+else return
+end 
